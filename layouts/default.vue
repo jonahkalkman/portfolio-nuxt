@@ -1,7 +1,6 @@
 <template>
-  <MarqueeSlider />
   <header
-    class="container mt-5 mx-auto py-4 flex justify-between items-center mb-20"
+    class="container mt-5 mx-auto py-4 flex justify-between items-center mb-10 border-b-2"
   >
     <NuxtLink to="/">
       <h1 :class="titleClasses">Jonah Kalkman</h1>
@@ -11,6 +10,7 @@
   <main class="container mx-auto">
     <slot />
   </main>
+  <Footer />
 </template>
 
 <script setup lang="ts">

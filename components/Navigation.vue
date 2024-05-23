@@ -5,6 +5,9 @@
         <nuxt-link to="/work">Work</nuxt-link>
       </li>
       <li :class="linkClasses">
+        <nuxt-link to="/blog">Blog</nuxt-link>
+      </li>
+      <li :class="linkClasses">
         <a href="mailto:jonah@jkagency.nl">Contact</a>
       </li>
     </ul>
