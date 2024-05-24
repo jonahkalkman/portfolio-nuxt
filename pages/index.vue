@@ -33,21 +33,21 @@
   </div>
   <div class="grid grid-cols-2 grid-rows-1 gap-10 mb-20">
     <a
-      class="group hover:cursor-pointer"
+      class="group hover:cursor-pointer w-full"
       href="https://shop.planetpod.energy/"
       target="_blank"
     >
       <NuxtImg
         width="100%"
-        height="500px"
+        height="800px"
         src="/img/planetpod.png"
         alt="Planetpod desktop"
-        class="object-cover group-hover:hidden transition-all duration-300 ease-in-out rounded-xl"
+        class="object-cover group-hover:hidden transition-all duration-300 ease-in-out rounded-xl w-full"
       />
       <NuxtImg
-        class="hidden object-cover group-hover:block rounded-xl"
+        class="hidden object-cover group-hover:block rounded-xl w-full"
         width="100%"
-        height="500px"
+        height="800px"
         src="/img/planetpod_mobile.png"
         alt="Planetpod mobile"
       />
@@ -56,21 +56,21 @@
       </p>
     </a>
     <a
-      class="group hover:cursor-pointer"
+      class="group hover:cursor-pointer w-full"
       href="https://baralaska.nl/"
       target="_blank"
     >
       <NuxtImg
         width="100%"
-        height="500px"
+        height="800px"
         src="/img/baralaska.png"
         alt="Bar Alaska desktop"
-        class="object-cover group-hover:hidden transition-all duration-300 ease-in-out rounded-xl"
+        class="object-cover group-hover:hidden transition-all duration-300 ease-in-out rounded-xl w-full"
       />
       <NuxtImg
-        class="hidden object-cover group-hover:block rounded-xl"
+        class="hidden object-cover group-hover:block rounded-xl w-full"
         width="100%"
-        height="500px"
+        height="800px"
         src="/img/baralaska_mobile.png"
         alt="Bar Alaska mobile"
       />

@@ -21,7 +21,7 @@ import IconGithub from './icons/IconGithub.vue';
     <div class="w-1/2 flex justify-end">
       <NuxtImg
         height="500px"
-        class="h-[500px] w-full object-cover rounded-xl rounded-l-none"
+        class="h-[70vh] w-full object-cover rounded-xl rounded-l-none"
         src="/img/portrait.jpg"
         alt="Jonah Kalkman"
         placeholder
