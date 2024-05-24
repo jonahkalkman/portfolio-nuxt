@@ -1,12 +1,5 @@
 <template>
-  <header
-    class="container mt-5 mx-auto py-4 flex justify-between items-center mb-10 border-b-2"
-  >
-    <NuxtLink to="/">
-      <h1 :class="titleClasses">Jonah Kalkman</h1>
-    </NuxtLink>
-    <Navigation />
-  </header>
+  <Header />
   <main class="container mx-auto">
     <slot />
   </main>

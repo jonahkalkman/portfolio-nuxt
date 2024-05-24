@@ -1,7 +1,7 @@
 ---
 title: "My freelance journey as a frontender"
 description: "The ups and downs as a freelance frontender in the Netherlands. Learn from my journey."
-image: "/img/baralaska.png"
+image: "/img/sidequest.jpg"
 ---
 
 <!-- Content of the page -->

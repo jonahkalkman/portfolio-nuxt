@@ -1,7 +1,7 @@
 ---
 title: "Comparing different frontend frameworks"
 description: "What framework should I learn? What's the best frontend framework? Should we migrate to X framework?"
-image: "/img/baralaska.png"
+image: "/img/hackathon.jpg"
 ---
 
 <!-- Content of the page -->

@@ -1,7 +1,7 @@
 <template>
   <h1 class="text-6xl mb-10">
     An archive of recent and past
-    <span class="bg-blue-700 text-white px-2 py-0">work</span> for clients and
+    <span class="bg-blue-700 text-white px-2 py-0 leading-tight">work</span> for clients and
     brands.
   </h1>
   <div class="grid grid-cols-3 grid-row-2 gap-10 mb-10">
@@ -10,7 +10,7 @@
       alt="Planetpod pre-order website"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
     <NuxtImg
@@ -18,7 +18,7 @@
       alt="Bar Alaska website"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
     <NuxtImg
@@ -26,7 +26,7 @@
       alt="EuroBrouwers desktop"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
     <NuxtImg
@@ -34,7 +34,7 @@
       alt="Nationaal Cooperatie Museum website"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
     <NuxtImg
@@ -42,7 +42,7 @@
       alt="Green Label Logistics website"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
     <NuxtImg
@@ -50,7 +50,7 @@
       alt="Wonder Productions website"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
     <NuxtImg
@@ -58,8 +58,12 @@
       alt="Urban Kr8 website"
       width="100%"
       height="500px"
-      class="object-cover rounded-xl"
+      :class="imageClasses"
       placeholder
     />
   </div>
 </template>
+
+<script setup lang="ts">
+const imageClasses = "w-full h-[500px] object-cover rounded-xl";
+</script>
