@@ -1,8 +1,8 @@
 <template>
   <h1 class="text-6xl mb-10">
     An archive of recent and past
-    <span class="bg-blue-700 text-white px-2 py-0 leading-tight">work</span> for clients and
-    brands.
+    <span class="bg-blue-700 text-white px-2 py-0 leading-tight">work</span> for
+    clients and brands.
   </h1>
   <div class="grid grid-cols-3 grid-row-2 gap-10 mb-10">
     <NuxtImg
@@ -12,6 +12,7 @@
       height="500px"
       :class="imageClasses"
       placeholder
+      loading="lazy"
     />
     <NuxtImg
       src="/img/baralaska.png"
@@ -20,6 +21,7 @@
       height="500px"
       :class="imageClasses"
       placeholder
+      loading="lazy"
     />
     <NuxtImg
       src="/img/eurobrouwers.png"
@@ -28,6 +30,7 @@
       height="500px"
       :class="imageClasses"
       placeholder
+      loading="lazy"
     />
     <NuxtImg
       src="/img/cooperatiemuseum.png"
@@ -44,6 +47,7 @@
       height="500px"
       :class="imageClasses"
       placeholder
+      loading="lazy"
     />
     <NuxtImg
       src="/img/wonderproductions.png"
@@ -52,6 +56,7 @@
       height="500px"
       :class="imageClasses"
       placeholder
+      loading="lazy"
     />
     <NuxtImg
       src="/img/urbankr8.png"
@@ -60,6 +65,7 @@
       height="500px"
       :class="imageClasses"
       placeholder
+      loading="lazy"
     />
   </div>
 </template>
