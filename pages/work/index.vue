@@ -5,7 +5,25 @@
     clients and brands.
   </h1>
   <div class="grid grid-cols-3 grid-row-2 gap-10 mb-10">
-    <NuxtImg
+    <ContentList path="/work" v-slot="{ list }">
+      <NuxtLink
+        v-for="article in list"
+        :key="article._path"
+        :to="article._path"
+        class="flex justify-start items-center w-full"
+      >
+        <NuxtImg
+          :src="article.image"
+          :alt="article.title"
+          width="100%"
+          height="500px"
+          :class="imageClasses"
+          placeholder
+          loading="lazy"
+        />
+      </NuxtLink>
+    </ContentList>
+    <!-- <NuxtImg
       src="/img/planetpod.png"
       alt="Planetpod pre-order website"
       width="100%"
@@ -66,7 +84,7 @@
       :class="imageClasses"
       placeholder
       loading="lazy"
-    />
+    /> -->
   </div>
 </template>
 
