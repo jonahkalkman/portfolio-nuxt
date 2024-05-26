@@ -13,81 +13,19 @@
         class="flex justify-start items-center w-full"
       >
         <NuxtImg
+          :class="imageClasses"
           :src="article.image"
           :alt="article.title"
           width="100%"
           height="500px"
-          :class="imageClasses"
           placeholder
           loading="lazy"
         />
       </NuxtLink>
     </ContentList>
-    <!-- <NuxtImg
-      src="/img/planetpod.png"
-      alt="Planetpod pre-order website"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-      loading="lazy"
-    />
-    <NuxtImg
-      src="/img/baralaska.png"
-      alt="Bar Alaska website"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-      loading="lazy"
-    />
-    <NuxtImg
-      src="/img/eurobrouwers.png"
-      alt="EuroBrouwers desktop"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-      loading="lazy"
-    />
-    <NuxtImg
-      src="/img/cooperatiemuseum.png"
-      alt="Nationaal Cooperatie Museum website"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-    />
-    <NuxtImg
-      src="/img/greenlabellogistics.png"
-      alt="Green Label Logistics website"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-      loading="lazy"
-    />
-    <NuxtImg
-      src="/img/wonderproductions.png"
-      alt="Wonder Productions website"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-      loading="lazy"
-    />
-    <NuxtImg
-      src="/img/urbankr8.png"
-      alt="Urban Kr8 website"
-      width="100%"
-      height="500px"
-      :class="imageClasses"
-      placeholder
-      loading="lazy"
-    /> -->
   </div>
 </template>
 
 <script setup lang="ts">
-const imageClasses = "w-full h-[500px] object-cover rounded-xl";
+const imageClasses = "w-full object-cover rounded-xl aspect-square hover:scale-105 transition-transform duration-300 ease-in-out";
 </script>

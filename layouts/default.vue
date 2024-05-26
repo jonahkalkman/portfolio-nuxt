@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <main class="container mx-auto">
+  <main class="container mx-auto px-4 md:px-0">
     <slot />
   </main>
   <Footer />

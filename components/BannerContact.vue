@@ -1,7 +1,7 @@
 <template>
-  <div class="grid grid-cols-2 grid-rows-1 gap-10 mb-20">
-    <div class="bg-blue-700 text-white py-10 px-8 rounded-xl w-full mr-5">
-      <h2 class="text-5xl mb-2">Let's work together!</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-0 md:gap-10 mb-20">
+    <div class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-10 px-8 rounded-xl w-full mr-5">
+      <h2 class="text-3xl md:text-5xl mb-2">Let's work together!</h2>
       <p class="mb-4 text-xl">
         Looking for a experienced frontend developer to help you with your next
         project? Let's get in touch!
@@ -13,9 +13,9 @@
       />
     </div>
     <div
-      class="text-black py-10 flex flex-col justify-center items-start rounded-xl w-full mr-5"
+      class="text-black py-10 flex flex-col justify-center items-start rounded-xl w-full md:mr-5"
     >
-      <h2 class="text-5xl mb-4">Find me on...</h2>
+      <h2 class="text-3xl md:text-5xl mb-4">Find me on...</h2>
       <div class="flex gap-4">
         <a
           href="mailto:jonah@jkagency.nl"

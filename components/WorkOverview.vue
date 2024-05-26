@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center justify-between mt-40">
+  <div class="flex flex-col md:flex-row items-center justify-between mt-40">
     <div class="mb-5">
-      <h2 class="text-5xl mb-2">Work</h2>
-      <p class="mb-4 text-xl">
+      <h2 class="text-3xl md:text-5xl mb-2">Work</h2>
+      <p class="mb-4 text-xl md:text-xl">
         Some of my recent projects for clients an brands as a freelance frontend
         developer.
       </p>
@@ -10,10 +10,10 @@
     <Button
       title="View all work"
       link="/work"
-      classes="bg-black text-white ml-5"
+      classes="bg-black text-white md:ml-5"
     />
   </div>
-  <div class="grid grid-cols-2 grid-rows-1 gap-10 mb-40">
+  <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-5 md:gap-10 mb-40">
     <a
       class="group hover:cursor-pointer w-full"
       href="https://shop.planetpod.energy/"
