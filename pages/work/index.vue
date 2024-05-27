@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-4xl md:text-6xl mb-10">
+  <h1 class="text-4xl md:text-6xl mb-10 md:leading-snug">
     An archive of recent and past
     <span class="bg-blue-700 text-white px-2 py-0 leading-tight">work</span> for
     clients and brands.

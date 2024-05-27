@@ -1,4 +1,3 @@
-import IconGithub from './icons/IconGithub.vue';
 <template>
   <section
     class="flex flex-col md:flex-row md:gap-10 justify-between items-stretch bg-gradient-to-r from-blue-800 to-indigo-900 rounded-xl"
@@ -9,7 +8,8 @@ import IconGithub from './icons/IconGithub.vue';
       <h1 class="text-4xl md:text-6xl mb-4">Hi! I'm Jonah</h1>
       <p class="text-lg md:text-xl mb-2">
         A freelance frontend developer based in Rotterdam, The Netherlands.
-        Helping brands and agencies with their digital products and websites with my company JK Agency.
+        Helping brands and agencies with their digital products and websites
+        with my company JK Agency.
       </p>
       <p class="text-lg md:text-xl mb-5">
         My current tech stack is React (Next.js), Tailwind, React Native (for

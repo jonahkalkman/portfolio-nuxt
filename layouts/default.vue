@@ -1,12 +1,7 @@
 <template>
   <Header />
-  <main class="container mx-auto px-4">
+  <main class="container mx-auto px-4 xl:px-0">
     <slot />
   </main>
   <Footer />
 </template>
-
-<script setup lang="ts">
-const titleClasses =
-  "text-lg after:content-[' '] after:w-0 after:bg-black after:h-[2px] after:block hover:after:w-full transition-all after:transition-all after:duration-300 after:ease-in-out hover:opacity-50 duration-300 ease-in-out";
-</script>
