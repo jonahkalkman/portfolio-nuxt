@@ -1,6 +1,6 @@
 <template>
   <header
-    class="container md:mt-5 mx-auto py-4 flex justify-center md:justify-between items-center mb-10 border-b-2"
+    class="container px-4 md:mt-5 mx-auto py-4 flex justify-between items-center mb-10 border-b-2"
   >
     <NuxtLink to="/" class="flex gap-2 justify-center items-center">
       <svg
@@ -17,5 +17,6 @@
       <h1 class="text-xl">Jonah Kalkman</h1>
     </NuxtLink>
     <Navigation class="hidden md:block" />
+    <MobileNavigation class="block md:hidden" />
   </header>
 </template>

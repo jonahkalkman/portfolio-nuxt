@@ -1,10 +1,10 @@
 <template>
   <footer>
     <div
-      class="container mx-auto py-4 flex justify-between items-center border-t-2"
+      class="container px-4 mx-auto py-4 flex flex-col md:flex-row justify-between items-center border-t-2"
     >
-      <p>© {{ currentYear }} Jonah Kalkman</p>
-      <p class="flex items-center justify-end gap-1">
+      <p class="order-2 md:order-1">© {{ currentYear }} Jonah Kalkman</p>
+      <p class="flex items-center justify-end gap-1 md:order-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"

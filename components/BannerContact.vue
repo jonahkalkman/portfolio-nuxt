@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-0 md:gap-10 mb-20">
+  <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-0 md:gap-10 md:mb-20">
     <div class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-10 px-8 rounded-xl w-full mr-5">
       <h2 class="text-3xl md:text-5xl mb-2">Let's work together!</h2>
       <p class="mb-4 text-xl">
