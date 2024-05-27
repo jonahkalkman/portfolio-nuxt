@@ -12,3 +12,10 @@ What's it like to freelance as a frontend developer
 #description
 The battle of the frontend frameworks.
 ::
+
+::MainContent
+
+#content
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed fermentum lacus, non gravida erat. Integer a tortor ac risus pellentesque interdum a vel ante. Donec viverra urna sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed fermentum lacus, non gravida erat. Integer a tortor ac risus pellentesque interdum a vel ante. Donec viverra urna sapien.
+
+::
