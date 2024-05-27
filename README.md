@@ -1,5 +1,6 @@
 # TODO
 - Make components reusable by defining props for each
+- 404 pages for dynamic routes and general 404 page
 
 # Nuxt 3 Minimal Starter
 
