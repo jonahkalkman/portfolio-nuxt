@@ -6,7 +6,7 @@ image: "/img/wonderproductions.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/wonderproductions.png"}  
 Website for Wonder Productions
 
 #description

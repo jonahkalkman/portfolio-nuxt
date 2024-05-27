@@ -6,7 +6,7 @@ image: "/img/planetpod.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/planetpod.png"}  
 Pre-order website for Planetpod
 
 #description

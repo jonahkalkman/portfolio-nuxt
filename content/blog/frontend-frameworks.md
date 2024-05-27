@@ -6,7 +6,7 @@ image: "/img/hackathon.jpg"
 
 <!-- Content of the page -->
 
-::HeroBlog
+::HeroBlog{image="/img/hackathon.jpg"}
 What's it like to freelance as a frontend developer
 
 #description

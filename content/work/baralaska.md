@@ -6,7 +6,7 @@ image: "/img/baralaska.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/baralaska.png"}  
 One-page website for Bar Alaska
 
 #description

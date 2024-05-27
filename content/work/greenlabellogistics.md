@@ -6,7 +6,7 @@ image: "/img/greenlabellogistics.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/greenlabellogistics.png"}
 Corporate website for Green Label Logistics
 
 #description

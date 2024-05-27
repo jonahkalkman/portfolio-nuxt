@@ -6,7 +6,7 @@ image: "/img/cooperatiemuseum.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/cooperatiemuseum.png"}
 Accessible website for museum based in Schiedam
 
 #description

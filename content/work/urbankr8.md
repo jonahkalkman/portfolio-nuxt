@@ -6,7 +6,7 @@ image: "/img/urbankr8.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/urbankr8.png"}  
 Webshop for Urbankr8 with WooCommerce
 
 #description

@@ -6,7 +6,7 @@ image: "/img/eurobrouwers.png"
 
 <!-- Content of the page -->
 
-::HeroBlog  
+::HeroBlog{image="/img/eurobrouwers.png"}  
 One-page website for EuroBrouwers
 
 #description
