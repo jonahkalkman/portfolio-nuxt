@@ -4,7 +4,9 @@
     <span class="bg-blue-700 text-white px-2 py-0 leading-tight">work</span> for
     clients and brands.
   </h1>
-  <div class="grid grid-cols-1 md:grid-cols-3 md:grid-row-2 gap-5 md:gap-10 mb-10">
+  <div
+    class="grid grid-cols-1 md:grid-cols-3 md:grid-row-2 gap-5 md:gap-10 mb-10"
+  >
     <ContentList path="/work" v-slot="{ list }">
       <NuxtLink
         v-for="article in list"
@@ -27,5 +29,16 @@
 </template>
 
 <script setup lang="ts">
-const imageClasses = "w-full object-cover rounded-xl aspect-square hover:scale-105 transition-transform duration-300 ease-in-out";
+useHead({
+  title: "Work - Jonah Kalkman",
+  meta: [
+    {
+      name: "description",
+      content: "An archive of recent and past work for clients and brands.",
+    },
+  ],
+});
+
+const imageClasses =
+  "w-full object-cover rounded-xl aspect-square hover:scale-105 transition-transform duration-300 ease-in-out";
 </script>

@@ -12,3 +12,15 @@
     </div>
   </ContentList>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "Blog - Jonah Kalkman",
+  meta: [
+    {
+      name: "description",
+      content: "A blog about frontend, design and technology.",
+    },
+  ],
+});
+</script>
