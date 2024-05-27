@@ -8,7 +8,7 @@
         v-if="formattedTime"
         class="flex items-center justify-end gap-1 md:order-2"
       >
-        <icons-globe />
+        <IconsGlobe />
         Rotterdam, Netherlands - {{ formattedTime }}
       </p>
     </div>
