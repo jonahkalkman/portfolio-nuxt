@@ -4,12 +4,12 @@
       <li
         :class="[route.path == '/work' ? activeLinkClasses : '', linkClasses]"
       >
-        <nuxt-link to="/work">Work</nuxt-link>
+        <NuxtLink to="/work">Work</NuxtLink>
       </li>
       <li
         :class="[route.path == '/blog' ? activeLinkClasses : '', linkClasses]"
       >
-        <nuxt-link to="/blog">Blog</nuxt-link>
+        <NuxtLink to="/blog">Blog</NuxtLink>
       </li>
       <li :class="linkClasses">
         <a href="mailto:jonah@jkagency.nl">Contact</a>

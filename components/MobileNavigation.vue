@@ -6,13 +6,13 @@
     <nav :class="menuClasses">
       <ul class="flex flex-col gap-10 px-4">
         <li class="text-5xl">
-          <nuxt-link to="/" @click="toggleMenu">Home</nuxt-link>
+          <NuxtLink to="/" @click="toggleMenu">Home</NuxtLink>
         </li>
         <li class="text-5xl">
-          <nuxt-link to="/work" @click="toggleMenu">Work</nuxt-link>
+          <NuxtLink to="/work" @click="toggleMenu">Work</NuxtLink>
         </li>
         <li class="text-5xl">
-          <nuxt-link to="/blog" @click="toggleMenu">Blog</nuxt-link>
+          <NuxtLink to="/blog" @click="toggleMenu">Blog</NuxtLink>
         </li>
         <li class="text-5xl">
           <a href="mailto:jonah@jkagency.nl">Contact</a>
