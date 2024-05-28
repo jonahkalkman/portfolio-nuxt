@@ -1,7 +1,7 @@
 export default {
   theme: {
     fontFamily: {
-      primary: ["HelveticaNeue"],
+      primary: ["Inter"],
     },
   },
   plugins: [],
