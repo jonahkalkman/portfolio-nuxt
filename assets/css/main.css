@@ -1,7 +1,7 @@
 @font-face {
   font-family: HelveticaNeue;
   font-weight: 400;
-  src: url("~/assets/fonts/HelveticaNeueBold") format("otf");
+  src: url("~assets/fonts/HelveticaNeueBold") format("otf");
 }
 
 body {
