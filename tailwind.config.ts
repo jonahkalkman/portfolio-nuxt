@@ -3,15 +3,6 @@ export default {
     fontFamily: {
       primary: ["Inter"],
     },
-    container: {
-      screens: {
-        sm: "100%",
-        md: "100%",
-        lg: "1600px",
-        xl: "1900px",
-        "2xl": "2400px",
-      },
-    },
   },
   plugins: [],
   content: [

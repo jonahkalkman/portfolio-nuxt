@@ -2,10 +2,7 @@
   <header
     class="container px-4 md:mt-5 mx-auto py-4 flex justify-between items-center mb-10 border-b-2"
   >
-    <NuxtLink
-      to="/"
-      class="header__title flex gap-2 justify-center items-center"
-    >
+    <NuxtLink to="/" class="flex gap-2 justify-center items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="25"
@@ -23,16 +20,3 @@
     <MobileNavigation class="block md:hidden" />
   </header>
 </template>
-
-<script setup lang="ts">
-const { $gsap } = useNuxtApp();
-
-onMounted(() => {
-  $gsap.from(".header__title", {
-    rotation: 3,
-    x: 100,
-    duration: 1,
-    opacity: 0,
-  });
-});
-</script>

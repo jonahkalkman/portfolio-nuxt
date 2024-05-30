@@ -5,16 +5,12 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
     "@nuxt/content",
-    [
-      "@nuxtjs/google-fonts",
-      {
-        families: {
-          Inter: true,
-        },
-      },
-    ],
-    "@nuxtjs/google-fonts",
-    "@hypernym/nuxt-gsap",
+    ['@nuxtjs/google-fonts', {
+      families: {
+        Inter: true,
+      }
+  }],
+    "@nuxtjs/google-fonts"
   ],
   css: ["~/assets/css/main.css"],
 });
