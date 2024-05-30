@@ -24,7 +24,7 @@
     <div class="w-full md:w-1/2 flex justify-end md:order-2">
       <NuxtImg
         height="800px"
-        class="md:h-[70vh] md:min-h-[650px] w-full object-cover rounded-xl rounded-b-none md:rounded-b-xl md:rounded-l-none"
+        class="md:h-[70vh] md:min-h-[650px] 2xl:h-[85vh] w-full object-cover rounded-xl rounded-b-none md:rounded-b-xl md:rounded-l-none"
         src="/img/portrait.jpg"
         alt="Jonah Kalkman"
         placeholder
